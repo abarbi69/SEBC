@@ -1,3 +1,4 @@
+start:
 
 cloud provider AWS
 RHEL-7.2_HVM-20161025-x86_64-1-Hourly2-GP2 - ami-7def1712
