@@ -1,3 +1,4 @@
+
 cloud provider AWS
 RHEL-7.2_HVM-20161025-x86_64-1-Hourly2-GP2 - ami-7def1712
 50 GB storage each
@@ -30,3 +31,9 @@ tmpfs            1497296       0   1497296   0% /run/user/1000
 reilly:x:2800:2800::/home/reilly:/bin/bash
 [root@ip-172-31-42-252 ec2-user]# grep frankola /etc/passwd            
 frankola:x:2900:2900::/home/frankola:/bin/bash
+
+[root@ip-172-31-42-252 ec2-user]# grep palolato /etc/group
+paloalto:x:2901:frankola
+
+[root@ip-172-31-42-252 ec2-user]# grep sanfrancisco /etc/group
+sanfrancisco:x:2902:reilly
