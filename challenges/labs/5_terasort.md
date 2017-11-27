@@ -1,3 +1,4 @@
+```
 su - reilly
 Last failed login: Fri Nov  3 07:32:07 EDT 2017 on pts/0
 There was 1 failed login attempt since the last successful login.
@@ -216,4 +217,4 @@ Spent 1221ms computing partitions.
         File Output Format Counters
                 Bytes Written=6553600000
 17/11/03 07:38:12 INFO terasort.TeraSort: done
-
+```
