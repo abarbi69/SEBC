@@ -1,3 +1,4 @@
+```
 [root@ip-172-31-45-9 ec2-user]# hdfs dfs -ls /user
 Found 9 items
 drwxr-xr-x   - admin    admin               0 2017-11-03 06:14 /user/admin
@@ -9,7 +10,8 @@ drwxrwxr-x   - hue      hue                 0 2017-11-03 06:11 /user/hue
 drwxrwxr-x   - oozie    oozie               0 2017-11-03 06:11 /user/oozie
 drwxr-xr-x   - reilly   reilly              0 2017-11-03 06:15 /user/reilly
 drwxr-x--x   - spark    spark               0 2017-11-03 06:10 /user/spark
-
+```
+```
 [root@ip-172-31-45-9 ec2-user]# curl -u admin:admin 'http://52.59.2.173:7180/api/v14/hosts'
 {
   "items" : [ {
@@ -73,7 +75,8 @@ drwxr-x--x   - spark    spark               0 2017-11-03 06:10 /user/spark
     "numPhysicalCores" : 2,
     "totalPhysMemBytes" : 15332311040
   } ]
-
+```
+```
 [root@ip-172-31-45-9 ec2-user]# curl -u admin:admin 'http://52.59.2.173:7180/api/v11/clusters/abarbi69/services'
 {
   "items" : [ {
@@ -1787,8 +1790,8 @@ drwxr-x--x   - spark    spark               0 2017-11-03 06:10 /user/spark
   "hostTemplates" : {
     "items" : [ ]
   }
-
-
+```
+```
  beeline -u jdbc:hive2://18.194.116.159:10000
 scan complete in 2ms
 Connecting to jdbc:hive2://18.194.116.159:10000
@@ -1815,3 +1818,4 @@ INFO  : OK
 +------------+--+
 4 rows selected (0.127 seconds)
 0: jdbc:hive2://18.194.116.159:10000>
+```
