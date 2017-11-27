@@ -1,3 +1,4 @@
+```
 [root@ip-172-31-45-9 cloudera-scm-server]# curl -u admin:admin "http://172.31.45.9:7180/api/v9/cm/deployment"
 {
   "timestamp" : "2017-11-03T09:39:28.782Z",
@@ -36,3 +37,4 @@
   "hostTemplates" : {
     "items" : [ ]
   }
+```
