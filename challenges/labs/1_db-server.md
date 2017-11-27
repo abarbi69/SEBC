@@ -1,7 +1,7 @@
 ```
 [root@ip-172-31-35-238 ec2-user]# hostname -f
 ip-172-31-35-238.eu-central-1.compute.internal
-``
+```
 ```
 [root@ip-172-31-35-238 ec2-user]# mysql -u root -pcloudera -e "status;"
 --------------
