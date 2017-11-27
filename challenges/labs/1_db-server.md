@@ -1,6 +1,8 @@
+```
 [root@ip-172-31-35-238 ec2-user]# hostname -f
 ip-172-31-35-238.eu-central-1.compute.internal
-
+``
+```
 [root@ip-172-31-35-238 ec2-user]# mysql -u root -pcloudera -e "status;"
 --------------
 mysql  Ver 14.14 Distrib 5.5.58, for Linux (x86_64) using readline 5.1
@@ -24,7 +26,8 @@ Uptime:                 15 min 54 sec
 
 Threads: 1  Questions: 45  Slow queries: 0  Opens: 34  Flush tables: 1  Open tables: 27  Queries per second avg: 0.047
 --------------
-
+```
+```
 [root@ip-172-31-35-238 ec2-user]# mysql -u root -pcloudera -e "show databases;"
 +--------------------+
 | Database           |
@@ -39,3 +42,4 @@ Threads: 1  Questions: 45  Slow queries: 0  Opens: 34  Flush tables: 1  Open tab
 | scm                |
 | sentry             |
 +--------------------+
+```
